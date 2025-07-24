@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", "Poppins", sans-serif;
 }
 
+/* ========== Header ========== */
 header {
   position: fixed;
   top: 0;
@@ -42,10 +43,27 @@ header {
   color: #000;
   margin-right: 30px;
 }
+
+.header-btn {
+  padding: 7px 15px;
+  background-color: #000;
+  color: white;
+  font-size: 14px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ========== Hero Section ========== */
 .hero {
   padding: 130px 20px 100px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .hero-title {
@@ -63,6 +81,7 @@ header {
   max-width: 600px;
   margin: 0 auto 30px;
 }
+
 .hero-btn {
   padding: 15px 55px;
   background-color: #34b352;
@@ -81,26 +100,8 @@ header {
 .hero-btn:hover {
   background-color: #218838;
 }
-.small-note {
-  font-size: 13px;
-  color: #777;
-  margin-top: 10px;
-}
-.header-btn {
-  padding: 7px 15px;
-  background-color: #000000;
-  color: white;
-  font-size: 14px;
-  border: 2px solid #000;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-  font-weight: 700;
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-}
-.hero-image {
+
+.hero-image3 {
   margin-top: 30px;
   max-width: 100%;
   width: 600px;
@@ -109,6 +110,14 @@ header {
   box-shadow: none;
   background: transparent;
 }
+
+.small-note {
+  font-size: 13px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* ========== Trust Logos Section ========== */
 .trust-logos {
   display: flex;
   justify-content: center;
@@ -138,6 +147,8 @@ header {
   color: #444;
   margin: 0;
 }
+
+/* ========== Page 2 Section ========== */
 .page2 {
   display: flex;
   justify-content: center;
@@ -167,7 +178,7 @@ header {
 .page2-btn {
   padding: 15px 55px;
   background-color: #f1b280;
-  color: rgb(0, 0, 0);
+  color: black;
   font-size: 14px;
   border: 2px solid #000;
   border-radius: 25px;
@@ -185,18 +196,21 @@ header {
   justify-content: center;
 }
 
-.page2-image {
+.page2-image3 {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  margin-top: 50px;
 }
+
+/* ========== Comment Box ========== */
 .comment-box {
   background-color: #ffc99e;
   padding: 30px;
   border-radius: 40px;
   border: 2px solid #000;
   max-width: 900px;
-  margin: 40px auto;
+  margin: auto;
   font-family: Arial, sans-serif;
 }
 
@@ -207,7 +221,7 @@ header {
   margin-bottom: 30px;
 }
 
-.testimonial-footer {
+.end {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -233,11 +247,179 @@ header {
   gap: 10px;
 }
 
-.trust-logo {
-  height: 20px;
-}
-
 .stars {
   color: black;
   font-size: 18px;
+}
+
+/* ========== Page 3 Section ========== */
+.page_3 {
+  margin: 55px 100px 0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page_3 .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 49px;
+}
+
+.text_2 h4 {
+  font-size: 45px;
+}
+
+.text_2 .dec {
+  max-width: 80%;
+  color: gray;
+}
+
+.page3-btn {
+  background-color:#68e5a2;
+  border: 1px solid black;
+  padding: 10px 40px;
+  color: black;
+  font-weight: bold;
+  border-radius: 50px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.ps {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ps .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.ps .plat-description {
+  color: gray;
+}
+.comment-box2 {
+  background-color: #68e5a2;
+  padding: 30px;
+  border-radius: 40px;
+  border: 2px solid #000;
+  max-width: 900px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.comment-text2 {
+  font-size: 18px;
+  color: #222;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  gap: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  margin-bottom: 30px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-top,
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.footer-top > div,
+.footer-bottom > div {
+  min-width: 150px;
+  flex: 1;
+}
+
+.latest-blog {
+  flex: 2;
+}
+
+
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+.footer-line {
+  border: none;
+  border-top: 1px solid #555;
+  margin: 30px 0 10px;
+}
+.small-logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  padding-right: 100px;
+}
+
+.small-logo img {
+  width: 250px;
+  height: 50px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end; 
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+.footer-text {
+  text-align: center;
+  font-size: 13px;
+  color: #ccc;
+  margin-right: 10px;
+  line-height: 1.6;
+}
+.footer-text a {
+  color: #aaa;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
 }
