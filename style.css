@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  position: fixed; 
+  position: fixed;
   top: 0;
   left: 0;
   width: 98%;
@@ -16,7 +16,6 @@ header {
   align-items: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 
 .left-nav,
 .right-nav {
@@ -44,7 +43,7 @@ header {
   margin-right: 30px;
 }
 .hero {
-    padding: 130px 20px 100px;
+  padding: 130px 20px 100px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -141,32 +140,43 @@ header {
 }
 .page2 {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  padding: 0;
-  background-color: #ffffff;
-  flex-wrap: wrap;
-  gap: 40px;
+  padding: 50px;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .left-nav2 {
   flex: 1;
-  max-width: 500px;
-  padding-left: 400px;
+  max-width: 600px;
 }
 
 .left-nav2 h1 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 40px;
   margin-bottom: 20px;
-  color: #222;
 }
 
 .left-nav2 p {
-  font-size: 16px;
-  color: #555;
+  font-size: 18px;
   line-height: 1.6;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.page2-btn {
+  padding: 15px 55px;
+  background-color: #f1b280;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  border: 2px solid #000;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .right-nav2 {
@@ -177,25 +187,57 @@ header {
 
 .page2-image {
   max-width: 100%;
-  width: 400px;
   height: auto;
+  border-radius: 10px;
+}
+.comment-box {
+  background-color: #ffc99e;
+  padding: 30px;
+  border-radius: 40px;
+  border: 2px solid #000;
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
 }
 
-.page2-btn {
-  padding: 15px 55px;
-  background-color: #fbc39b;
-  color: rgb(0, 0, 0);
-  font-size: 14px;
-  border: 2px solid #000;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-  font-weight: 700;
-  display: inline-flex;
+.comment-text {
+  font-size: 18px;
+  color: #222;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.testimonial-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user {
+  display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.page2-btn:hover {
-  background-color: #ffd399;
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.trust-logo {
+  height: 20px;
+}
+
+.stars {
+  color: black;
+  font-size: 18px;
 }
