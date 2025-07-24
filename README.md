@@ -1,4 +1,4 @@
-##ITI CST Project
+## ITI CST Project
 # 🌐 Simple Landing Page Project
 
 This is a **Landing Page** built using **HTML5** and **CSS3** only — no frameworks or JavaScript. It's designed to be clean, fast, and customizable.
