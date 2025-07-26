@@ -39,7 +39,6 @@ header {
   font-weight: 700;
   align-items: center;
 }
-
 /* ========== Hero Section ========== */
 .hero {
   padding: 130px 20px 100px;
@@ -71,11 +70,9 @@ header {
   border: 2px solid #000;
   border-radius: 12px;
   cursor: pointer;
-  transition: 0.3s;
   font-weight: 700;
   display: inline-flex;
   align-items: center;
-  gap: 10px;
 }
 
 .hero-btn:hover {
@@ -88,8 +85,6 @@ header {
   width: 600px;
   height: auto;
   border-radius: 0;
-  box-shadow: none;
-  background: transparent;
 }
 
 .small-note {
@@ -98,23 +93,12 @@ header {
   margin-top: 10px;
 }
 
-/* ========== Trust Logos Section ========== */
 .trust-logos {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 80px;
   padding: 50px 20px;
-  flex-wrap: wrap;
-  background-color: #fff;
-  text-align: center;
-}
-
-.trust-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 150px;
 }
 
 .trust-item img {
@@ -135,14 +119,8 @@ header {
   justify-content: center;
   align-items: center;
   padding: 50px;
-  gap: 50px;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.left-nav2 {
-  flex: 1;
-  max-width: 600px;
 }
 
 .left-nav2 h1 {
@@ -164,19 +142,9 @@ header {
   border: 2px solid #000;
   border-radius: 25px;
   cursor: pointer;
-  transition: 0.3s;
   font-weight: 700;
-  display: inline-flex;
   align-items: center;
-  gap: 10px;
 }
-
-.right-nav2 {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-
 .page2-image3 {
   max-width: 100%;
   height: auto;
@@ -192,7 +160,6 @@ header {
   border: 2px solid #000;
   max-width: 900px;
   margin: auto;
-  font-family: Arial, sans-serif;
 }
 
 .comment-text {
@@ -224,13 +191,11 @@ header {
 
 .rating {
   display: flex;
-  align-items: center;
-  gap: 10px;
 }
 
 .stars {
   color: black;
-  font-size: 18px;
+  font-size: 21px;
 }
 
 /* ========== Page 3 Section ========== */
